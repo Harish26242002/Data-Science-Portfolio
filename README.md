@@ -27,4 +27,5 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/My-Datascience-works.git
+   git clone https://github.com/Harish26242002/My-Datascience-works.git
+   
