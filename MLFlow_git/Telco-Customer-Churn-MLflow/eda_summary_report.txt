@@ -1,0 +1,3 @@
+EDA completed successfully using Microsoft color standards.
+Total records: 7043
+Churn rate: 26.54%
