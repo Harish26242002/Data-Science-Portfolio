@@ -1,0 +1,44 @@
+**From:** it@edukron.com
+**To:** Dear User
+**Subject:** Support: Resolution for GitHub Authentication and Repository Access
+
+Dear User,
+
+Thank you for contacting the Edukron IT Support Team. 
+
+We have investigated your login issue and identified that it is related to the authentication requirements for our GitHub private repositories. To restore your access and ensure a secure connection, please follow the step-by-step instructions below to configure your credentials.
+
+### **Resolution Steps for GitHub Private Repository Access**
+
+**Step 1: Accept the Repository Invitation**
+Before proceeding, please check your email (including your spam folder) for an invitation to the specific Edukron private repository. You must click "Accept Invitation" to be officially added to the collaborators list.
+
+**Step 2: Generate a Personal Access Token (PAT)**
+GitHub now requires a Personal Access Token instead of your standard account password for command-line or API authentication.
+1. Log in to your GitHub account on a web browser.
+2. In the upper-right corner, click your profile photo, then click **Settings**.
+3. In the left sidebar, click **Developer settings**.
+4. Click **Personal access tokens** and select **Tokens (classic)**.
+5. Click **Generate new token (classic)**.
+6. Give your token a descriptive name (e.g., "Edukron Work Laptop").
+7. Select the **'repo'** checkbox (this grants access to private repositories).
+8. Scroll to the bottom and click **Generate token**.
+9. **Important:** Copy the token immediately. You will not be able to see it again.
+
+**Step 3: Update Your Local Credentials**
+When you attempt to pull or push code to the repository via your terminal or IDE, you will be prompted for your credentials.
+1. **Username:** Enter your GitHub username.
+2. **Password:** Paste the **Personal Access Token** you generated in Step 2.
+
+**Step 4: Verify Access**
+Run the following command in your terminal to ensure the connection is active:
+`git fetch origin`
+
+If you are able to fetch updates without an error message, your authentication is successfully configured.
+
+If you encounter any further issues or require a screen-sharing session to complete these steps, please reply to this email or reach out to us via our internal support channel.
+
+Best regards,
+
+**The IT Support Team**
+Edukron | it@edukron.com
